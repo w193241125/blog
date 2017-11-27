@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use HTMLPurifier;
 
 class TestController extends Controller
 {
@@ -10,7 +11,12 @@ class TestController extends Controller
     {
         $appId = env(QQ_APP_ID);
         $appKey = env(QQ_APP_KEY);
-        echo 1;
+        $callbackUrl = urlencode('http://www.larwas.com');
+        $url = 'https://graph.qq.com/oauth2.0/authorize'.'?response_type=code'.'&client_id='.$appId.'&redirect_uri='.$callbackUrl.'&state=test';
+        $res = $this->getCurl($url);
+        dd($res);
+
+        HTMLPurifier_Config::createDefault();
     }
 
     /**
