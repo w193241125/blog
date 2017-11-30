@@ -1,0 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+
+header .navbar-header a{font-family: 'Dancing Script', cursive;font-size: 35px;display: inline;line-height: 1.0;}
