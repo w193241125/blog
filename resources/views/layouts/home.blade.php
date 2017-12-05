@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>嗨社区| 嗨WEWOERK</title>
+    <title>LS | Larwas</title>
 
 
     <link rel="stylesheet" type="text/css" href="{{asset('home/bootstrap/css/candy-box.css')}}" />
@@ -431,7 +430,7 @@
         </div>
     </div>
     <div class="footerbot">
-        © 2015 嗨weiwork | 鲁ICP备12012936号
+        © 2017 Larwas | 粤ICP备17105435号-1
     </div>
 
 </footer>

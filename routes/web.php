@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('test');
-});
+Route::get('/', 'PagesController@root')->name('root');
 Route::get('test','TestController@index');
 Route::get('login','LoginController@qqLoginApi');
 Route::get('index','IndexController@index');
